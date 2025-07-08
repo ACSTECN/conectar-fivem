@@ -1,11 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-  <meta http-equiv="refresh" content="0; url=fivem://connect/104.234.63.126">
-  <title>Conectando ao FiveM</title>
+  <meta charset="UTF-8">
+  <title>Conectar ao FiveM</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url('https://i.postimg.cc/pdXxktTs/Design-sem-nome-4.png'); /* ou fundo.jpg se estiver na pasta */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      font-family: Arial, sans-serif;
+      color: white;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.6); /* fundo preto transparente */
+      padding: 30px;
+      border-radius: 15px;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+
+    .btn-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 15px 30px;
+      font-size: 1.2em;
+      color: white;
+      background-color: #ff0000;
+      text-decoration: none;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #cc0000;
+    }
+  </style>
 </head>
 <body>
-  <h2>Redirecionando para o servidor FiveM...</h2>
-  <p>Se não for redirecionado, <a href="fivem://connect/104.234.63.126">clique aqui</a>.</p>
+  <div class="container">
+    <h1>Bem-vindo ao Servidor!</h1>
+    <div class="btn-container">
+      <a class="btn" href="fivem://connect/104.234.63.126">Conectar ao FiveM</a>
+      <a class="btn" href="https://discord.gg/https://discord.gg/jyjUH8MYCr" target="_blank">Entrar no Discord</a>
+    </div>
+  </div>
 </body>
 </html>
